@@ -32,7 +32,7 @@ def connect_to_database():
     return psycopg2.connect(
         dbname='govconsearch',
         user='postgres',
-        password='AmanDfw',
+        password='',
         host='localhost'
     )
 
